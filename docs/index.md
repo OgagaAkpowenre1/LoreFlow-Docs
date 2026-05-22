@@ -1,25 +1,23 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "LoreFlow Docs"
-  text: "This is a site for the documentation of the narrative engine LoreFlow and it's plugins."
-  tagline: My great project tagline
+  name: "LoreFlow"
+  text: "Visual Narrative Logic Suite"
+  tagline: A professional-grade, local-first dialogue editor for narrative designers and game writers. Build non-linear stories on an infinite canvas. Export to any game engine.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Quickstart Guide
+      link: /getting-started#quickstart-guide
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View on itch.io
+      link: # Replace-with-your-itch-link
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Version 2.0.0 (Phase 6)
+    details: Built with React, Vite, Zustand, and ReactFlow.
+  - title: Engine Agnostic
+    details: Export clean JSON directly into Godot, Unity, or Unreal.
+  - title: Local-first Storage
+    details: No account needed. Runs entirely in your browser.
 ---
-

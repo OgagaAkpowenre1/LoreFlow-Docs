@@ -5,11 +5,9 @@
 node_modules
 
 # VitePress generated files
-# VitePress generated files
-.vitepress/cache
 .vitepress/cache
 .vitepress/dist
-.vitepress/dist
+
 
 
 # System files
