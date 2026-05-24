@@ -2,6 +2,8 @@
 
 ## What is LoreFlow?
 
+![LoreFlow Interface](/loreflow-interface-img.webp)
+
 LoreFlow is a browser-based visual editor designed specifically for the discipline of narrative design in games. It bridges the gap between creative writing and technical implementation — allowing writers to think spatially about their stories while automatically generating the structured data that game engines need to run them.
 
 At its core, LoreFlow is a **node graph editor**. Your story is a network of connected boxes. Each box (a "node") represents a discrete story event — a scene with dialogue, a logic gate that evaluates game state, or a jump to a different conversation. The connections between boxes represent the paths a player can take through your world.

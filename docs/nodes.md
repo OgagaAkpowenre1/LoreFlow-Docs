@@ -15,6 +15,8 @@ Every element on the LoreFlow canvas is a node. Nodes connect to each other thro
 
 ## Start Node
 
+![LoreFlow Start Node](/loreflow-start-node-img.webp)
+
 The Start node marks the entry point of a graph. Connect the Start node's output handle to the first Scene (or Logic) node the player should encounter. 
 
 ::: warning
@@ -24,6 +26,8 @@ Placing more than one Start node in a graph produces undefined behavior in the e
 ---
 
 ## Scene Node
+
+![LoreFlow Scene Node](/loreflow-scene-node-img.webp)
 
 ### What a Scene contains (Default Schema)
 | Field | Type | Purpose |
@@ -38,6 +42,8 @@ Placing more than one Start node in a graph produces undefined behavior in the e
 ---
 
 ## Logic Node
+
+![LoreFlow Logic Node](/loreflow-logic-node-img.webp)
 
 The Logic node is a conditional gate. It has no dialogue — its only purpose is to evaluate game state and route the story.
 
@@ -67,6 +73,8 @@ A Logic node contains one or more **routes**. The first true route wins. The las
 
 ## Switch Node
 
+![LoreFlow Switch Node](/loreflow-switch-node-img.webp)
+
 The Switch node routes the story based on the exact *value* of a string variable. 
 
 ::: tip
@@ -77,10 +85,14 @@ Prefer Switch over Logic whenever you're branching on a variable that can take m
 
 ## Jump Node
 
+![LoreFlow Jump Node](/loreflow-jump-node.webp)
+
 The Jump node is the cross-graph connector. In the game engine's runtime, hitting a Jump node means: "unload the current graph and start the target graph from its Start node." 
 
 ---
 
 ## Collection Node
+
+![LoreFlow Collection Node](/loreflow-collection-node-img.webp)
 
 The Collection node is a purely organizational tool. It is stripped from game data exports entirely and has no runtime behavior.

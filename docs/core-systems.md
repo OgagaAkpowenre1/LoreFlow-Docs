@@ -2,6 +2,8 @@
 
 ## Blueprint System
 
+![LoreFlow Blueprints](/loreflow-blueprints-img.webp)
+
 LoreFlow is **schema-driven**. Instead of hardcoding what information a Scene node holds, the editor renders its form entirely from the Blueprint configuration in your Settings. 
 
 ### The Default Blueprint (Scene Node)
@@ -15,6 +17,8 @@ LoreFlow is **schema-driven**. Instead of hardcoding what information a Scene no
 ---
 
 ## Variables & Lists
+
+![LoreFlow Lists](/loreflow-global-lists-img.webp)
 
 Variables are the memory of your game world. They track what the player has done, what they carry, and what has happened.
 
@@ -38,11 +42,15 @@ Variables can be embedded inline in any dialogue text using square bracket synta
 
 ## Conversation Registry
 
+![LoreFlow Conversation Registry](/loreflow-convo-registry-img.webp)
+
 The Conversation Registry tells the game engine which graph to load when a player talks to a specific NPC. All of this logic ships *inside the exported JSON*, removing the need for custom routing code in the game engine.
 
 ---
 
 ## Playtest Simulator
+
+![LoreFlow Playtest Simulator](/loreflow-playtest-3-img.webp)
 
 The Simulator is a full in-browser dialogue engine that lets you walk through your story as a player would. 
 

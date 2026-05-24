@@ -2,6 +2,8 @@
 
 ## The Canvas
 
+![LoreFlow Canvas](/loreflow-canvas-img.webp)
+
 The canvas is the primary workspace — an infinite grid where your story graph lives. It is built on ReactFlow and supports all standard node graph interactions.
 
 ### Navigation
@@ -29,6 +31,8 @@ When you switch between graphs using the Graph Navigator, LoreFlow saves and res
 
 The navbar is a floating pill that appears centered at the top of the canvas. 
 
+![LoreFlow Navbar](/loreflow-navbar-img.webp)
+
 | Button | Action |
 | --- | --- |
 | **Project Name field** | Editable text input. Used as the default filename for exports. |
@@ -50,6 +54,8 @@ The navbar is a floating pill that appears centered at the top of the canvas.
 ## Inspector Sidebar
 
 The Inspector is the right-side panel that opens when you click any node on the canvas. It is **resizable** — drag the left edge of the panel to make it wider or narrower.
+
+![LoreFlow Inspector](/loreflow-inspector-1-img.webp)
 
 ### What the Inspector shows
 * **Scene nodes:** Renders every field defined in your Blueprint schema (Title, Background, BGM, Flags, and the Sequence editor). 
@@ -73,6 +79,7 @@ The dialogue text field validates `[token]` syntax in real time. If you type `[g
 
 The Graph Navigator is the left sidebar panel. It lists every graph in the current project. The sidebar is **collapsible** and **resizable**.
 
+
 | Action | How |
 | --- | --- |
 | **Switch active graph** | Click any graph name. |
@@ -85,6 +92,8 @@ The Graph Navigator is the left sidebar panel. It lists every graph in the curre
 ---
 
 ## Settings Editor
+
+![LoreFlow Settings](/loreflow-blueprints-img.webp)
 
 The Settings Editor is a full-screen modal overlay opened by clicking the gear icon. 
 
