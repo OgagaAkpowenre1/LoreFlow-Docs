@@ -11,7 +11,7 @@ hero:
       link: /getting-started#quickstart-guide
     - theme: alt
       text: View on itch.io
-      link: # Replace-with-your-itch-link
+      link: https://thecreatorsgames.itch.io/loreflow
 
 features:
   - title: Version 2.0.0 (Phase 6)
